@@ -1,0 +1,10 @@
+---
+globals:
+  ARCH_TYPE:
+    any: true
+  OS_TYPE:
+    any: true
+  PLUGIN:
+    any: true
+  RUNTIME:
+    any: true
