@@ -16,11 +16,11 @@ steps {
     }
   }
   ["oxfmt"] = Builtins.oxfmt
+  ["ryl"] = Builtins.ryl
   ["selene"] = Builtins.selene
   ["shellcheck"] = Builtins.shellcheck
   ["shfmt"] = Builtins.shfmt
   ["stylua"] = Builtins.stylua
-  ["yamllint"] = Builtins.yamllint
   ["zizmor"] = Builtins.zizmor
 }
 

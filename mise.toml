@@ -8,6 +8,7 @@ luarocks = "./"
 lockfile = true
 
 [tools]
+"aqua:owenlamont/ryl" = "latest"
 "npm:@commitlint/cli" = "latest"
 actionlint = "latest"
 editorconfig-checker = "latest"
@@ -17,11 +18,9 @@ lua = "5.4"
 lua-language-server = "latest"
 oxfmt = "latest"
 pkl = "latest"
-python = "latest"
 shellcheck = "latest"
 shfmt = "latest"
 stylua = "latest"
-uv = "latest"
 zizmor = "latest"
 
 [tools."github:Kampfkarren/selene"]
@@ -31,10 +30,6 @@ bin = "selene"
 [tools."luarocks:luacheck"]
 version = "latest"
 depends = ["lua"]
-
-[tools.yamllint]
-version = "latest"
-depends = ["python", "uv"]
 
 [tasks.ci]
 description = "Run all CI checks"
