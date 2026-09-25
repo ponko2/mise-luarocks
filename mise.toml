@@ -4,9 +4,6 @@ MISE_USE_VERSIONS_HOST = "0"
 [plugins]
 luarocks = "./"
 
-[settings]
-lockfile = true
-
 [tools]
 "aqua:owenlamont/ryl" = "latest"
 "npm:@commitlint/cli" = "latest"
