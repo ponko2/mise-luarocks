@@ -350,7 +350,7 @@ backend = "npm:@commitlint/cli"
 specifiers = ["latest"]
 
 [[tools.oxfmt]]
-version = "0.70.0"
+version = "0.71.0"
 backend = "npm:oxfmt"
 specifiers = ["latest"]
 
