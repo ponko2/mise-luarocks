@@ -20,7 +20,7 @@ function PLUGIN.BackendInstall(_, ctx)
     local cmd = require("cmd")
     local ok, result = pcall(cmd.exec, ("luarocks --tree %s install %s %s"):format(install_path, tool, version))
     if not ok then
-        error(("Failed to install %s@%s: %s"):format(tool, version, result))
+        error(("Failed to install %s@%s: %s"):format(tool, version, tostring(result)))
     end
 
     return {}
