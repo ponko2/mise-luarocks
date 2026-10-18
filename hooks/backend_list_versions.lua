@@ -11,7 +11,7 @@ function PLUGIN.BackendListVersions(_, ctx)
     local cmd = require("cmd")
     local ok, result = pcall(cmd.exec, ("luarocks search --porcelain %s"):format(tool))
     if not ok then
-        error(("Failed to fetch versions for %s: %s"):format(tool, result))
+        error(("Failed to fetch versions for %s: %s"):format(tool, tostring(result)))
     end
 
     local versions = {}
