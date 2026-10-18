@@ -4,7 +4,7 @@
 PLUGIN = {
     name = "luarocks",
     depends = { "lua" },
-    version = "0.1.0",
+    version = "0.1.1",
     description = "A mise backend plugin for luarocks tools",
     author = "Takahito Nakano",
     license = "MIT",
