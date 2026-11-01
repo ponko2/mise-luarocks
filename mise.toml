@@ -5,6 +5,7 @@ MISE_USE_VERSIONS_HOST = "0"
 luarocks = "./"
 
 [tools]
+"aqua:Kampfkarren/selene/light" = "latest"
 "aqua:owenlamont/ryl" = "latest"
 "npm:@commitlint/cli" = "latest"
 editorconfig-checker = "latest"
@@ -17,10 +18,6 @@ pkl = "latest"
 shellcheck = "latest"
 shfmt = "latest"
 stylua = "latest"
-
-[tools."github:Kampfkarren/selene"]
-version = "latest"
-bin = "selene"
 
 [tools."luarocks:luacheck"]
 version = "1.2.0-1"
