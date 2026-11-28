@@ -1,6 +1,6 @@
 --- Lists available versions for a tool in this backend
 --- Documentation: https://mise.jdx.dev/backend-plugin-development.html#backendlistversions
---- @param ctx {tool: string} Context (tool = the tool name requested)
+--- @param ctx BackendListVersionsCtx Context for the requested backend tool
 --- @return {versions: string[]} Table containing list of available versions
 function PLUGIN.BackendListVersions(_, ctx)
     local tool = ctx.tool

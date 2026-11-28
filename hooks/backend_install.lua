@@ -1,6 +1,6 @@
 --- Installs a specific version of a tool
 --- Documentation: https://mise.jdx.dev/backend-plugin-development.html#backendinstall
---- @param ctx {tool: string, version: string, install_path: string} Context
+--- @param ctx BackendInstallCtx Context for the requested backend tool installation
 --- @return table Empty table on success
 function PLUGIN.BackendInstall(_, ctx)
     local tool = ctx.tool
