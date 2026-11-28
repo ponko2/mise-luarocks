@@ -1,6 +1,6 @@
 --- Sets up environment variables for a tool
 --- Documentation: https://mise.jdx.dev/backend-plugin-development.html#backendexecenv
---- @param ctx {install_path: string, tool: string, version: string} Context
+--- @param ctx BackendExecEnvCtx Context for the installed backend tool
 --- @return {env_vars: table[]} Table containing list of environment variable definitions
 function PLUGIN.BackendExecEnv(_, ctx)
     local file = require("file")

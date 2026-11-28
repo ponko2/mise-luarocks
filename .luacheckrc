@@ -6,3 +6,5 @@ globals = {
     "PLUGIN",
     "RUNTIME",
 }
+
+max_comment_line_length = false
